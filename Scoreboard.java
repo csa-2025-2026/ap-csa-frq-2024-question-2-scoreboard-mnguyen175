@@ -1,10 +1,13 @@
 /*
 
 # Answer close reading 1 questions here
-
+1) Team 1 
+2) The argument  
+3) If the argument is 0, then switch to the other team 
 
 # Answer close reading 2 questions here
-
+1) String team1, String team2, int team1Score, int team2Score, String activeTeam
+2) The class should have activeTeam 
 */
 
 // Write the class below
@@ -20,6 +23,8 @@ public class Scoreboard {
     {
         this.team1 = team1; 
         this.team2 = team2; 
+        team1Score = 0; 
+        team2Score = 0; 
         this.activeTeam = team1; 
     }
 
